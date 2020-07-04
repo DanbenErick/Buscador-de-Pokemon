@@ -11,6 +11,8 @@ nav a {
     color: white;
     display: blocK;
     padding: 10px 20px;
+    text-decoration: none;
+    font-family: system-ui;
 }
 nav a:hover {
     background: #131313;
