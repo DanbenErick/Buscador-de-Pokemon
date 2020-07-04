@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PicturePokemon from './PicturePokemon.jsx'
 import axios from 'axios'
-const SearchPokemon = () => {
+const SearchPokemonForId = () => {
     const [ pokemon, setPokemon ] = useState({
         id: '',
         name: '',
@@ -56,4 +56,4 @@ const SearchPokemon = () => {
     )
 }
 
-export default SearchPokemon
+export default SearchPokemonForId

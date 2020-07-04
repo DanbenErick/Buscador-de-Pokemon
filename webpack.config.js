@@ -7,7 +7,7 @@ const config = {
         path: path.join(__dirname, 'dist')
     },
     devServer: {
-        open: true,
+        // open: true,
         hot: true,
         port : 9000
     },

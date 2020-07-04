@@ -1,0 +1,18 @@
+nav {
+    background: #222222;
+}
+nav ul {
+    padding: none;
+    margin: none;
+    list-style: none;
+    display: flex;
+}
+nav a {
+    color: white;
+    display: blocK;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background: #131313;
+    cursor: pointer;
+}

@@ -1,6 +1,11 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import Pokemon from './components/Pokemon'
 const App = () => (
-    <Pokemon />
+    <div>
+        <BrowserRouter>
+            <Pokemon />
+        </BrowserRouter>
+    </div>
 )
 export default App
