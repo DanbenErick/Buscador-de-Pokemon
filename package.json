@@ -1,5 +1,4 @@
 {
-  "homepage": " https://danbenerick.github.io/Buscador-de-Pokemon/",
   "name": "Pokemon-React",
   "version": "1.0.0",
   "description": "",
@@ -7,8 +6,6 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "build:dev": "webpack-dexv-server --config webpack.config.js --mode development",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
